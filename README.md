@@ -16,8 +16,8 @@ Given two codes as the input, the task is to do binary classification (0/1), whe
 
 ### Data Format
 
-1. googlejam4.tar.gz contains the raw data consisting of projects collected from the Google Code Jam (GCJ) competition. The authors claim to have collected 1,669 projects from 12 competition problems. However, upon analyzing this file, we found that they have provided [only 1,665 projects](https://github.com/parasol-aser/deepsim/issues/9) from the 12 competition problems.
-2. data.jsonl is stored in jsonlines format. Each line in the uncompressed file represents one function. One row is illustrated below.
+1. GCJ/googlejam4.tar.gz contains the raw data consisting of projects collected from the Google Code Jam (GCJ) competition. The authors claim to have collected 1,669 projects from 12 competition problems. However, upon analyzing this file, we found that they have provided [only 1,665 projects](https://github.com/parasol-aser/deepsim/issues/9) from the 12 competition problems.
+2. dataset/data.jsonl is stored in jsonlines format. Each line in the uncompressed file represents one function. One row is illustrated below.
    - **func:** the function
    - **idx:** index of the example
 3. train.txt/valid.txt/test.txt provide examples, stored in the following format: idx1 idx2 label
